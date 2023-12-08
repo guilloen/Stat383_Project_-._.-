@@ -23,7 +23,7 @@ S3E = cor(data$Sus, data$Gentle)
 S4D = cor(data$Erratic, data$Erratic)
 S4E = cor(data$Erratic, data$Gentle)
 
-S5E = cor(data$Sol, data$Gentle)
+S5E = cor(data$Gentle, data$Gentle)
 
 df <- data.frame( "Correlation Table" = c("Y1 (Aggresive to People)", 
                                           "X1 (Suspicious)", "X2 (Erratic)",
